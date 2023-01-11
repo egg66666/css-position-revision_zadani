@@ -1,0 +1,98 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  margin-left: 25vh;
+  margin-right: 25vh;
+}
+.headline-1 {
+  font-size: 36px;
+  margin-top: 5vw;
+  margin-bottom: 3vw;
+  display: flex;
+  justify-content: center;
+}
+.hero-section {
+  padding: 8vh;
+  background-color: #f2b880;
+  border-radius: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text {
+  font-size: 18px;
+}
+.text-wrapper {
+  margin-left: 18vh;
+  margin-top: 10vh;
+  margin-right: 18vh;
+}
+.hero-img > img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: -1vh -1vh 0 0 #e88121;
+}
+.hero-img {
+  margin-left: -4vh;
+  margin-right: 4vh;
+  width: 160vh;
+}
+.header {
+  max-width: 100%;
+  max-height: 100%;
+
+  width: auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.header-logo {
+  padding: 1vh;
+  max-height: 50%;
+  max-width: 50%;
+  height: 10vh;
+}
+.header-logo img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.navbar {
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+  padding-top: 1vh;
+  padding-right: 2vh;
+  margin: 0;
+}
+.nav-item {
+  padding: 1vh;
+  font-size: 18px;
+}
+.top-link-wrapper {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  margin-left: 110%;
+  margin-bottom: 3%;
+  right: 0;
+  top: 0;
+}
+.top-link > a > img {
+  width: 5vh;
+}
+/* Barvy
+Světlá barva pozadí: #f2b880
+Tmavší barvy pozadí za obrázkem: #e88121
+Barva text v oranžovém pozadí: #752400
+*/
